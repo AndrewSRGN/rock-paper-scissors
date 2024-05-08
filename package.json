@@ -1,0 +1,27 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "Web app for a Rock Paper Scissors game",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "start": "webpack serve --static . --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewSRGN/rock-paper-scissors.git"
+  },
+  "author": "AndrewSRGN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewSRGN/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/AndrewSRGN/rock-paper-scissors#readme",
+  "dependencies": {
+    "css-loader": "^7.1.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
